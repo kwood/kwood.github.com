@@ -1,0 +1,13 @@
+---
+layout: default
+title: Home
+---
+
+{% assign posts = site.posts %}
+{% assign listing_limit = 5 %}
+{% assign truncate = 1 %}
+{% for post in posts limit: listing_limit %}
+{% assign page = post %}
+{% include post.html %}
+
+{% endfor %}

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Yeeaaaah2"
+description: ""
+category: 
+tags: []
+---
+
+
+Well, this wouldn't be the worst way in the world to write a rakefile!
+
